@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="BlizzardUpdateHost" name="Blizzard Update Host Server" ip="69.121.211.192" type="0">
+	
+	<admin type="fast" resetPassword="false" isSuper="false"/>
+	<portsForCrack val="4" />
+	<ports>21,22,25,80,3724</ports>
+	<trace time="75" />
+	
+	<file path="sys" name="Blizzard_Update_Host.dll">#BINARY#</file>
+	
+	<dlink target="BlizzardMainframe" />
+	
+</Computer>

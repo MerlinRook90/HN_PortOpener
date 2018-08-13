@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MerlinRookGames" name="Merlin Rook Games Server" ip="231.225.74.167" security="2" type="0">
+	
+	<admin type="progress" resetPassword="false" isSuper="false"/>
+	<portsForCrack val="3" />
+	<ports>21,22,80,1433,3724</ports>
+	<trace time="-1" />
+	
+	<file path="sys" name="Blizzard_Updater.dll">#BINARYSMALL#</file>
+	<file path="sys" name="Blizzard_Configuration.cfg">Updater IP: 69.121.211.192
+	Client ID: MerlinRookGames
+	Client Pass: DSmKq55HDwbZI12K</file>
+	
+</Computer>

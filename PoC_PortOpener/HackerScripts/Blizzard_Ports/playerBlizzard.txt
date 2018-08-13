@@ -1,0 +1,198 @@
+config playerComp _radiate_Battlestation 0.0 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Blizzard Update available! $#%#$
+writel Estimated update time: 120 seconds. $#%#$
+writel Beginning update now. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 30 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 25% complete! $#%#$
+writel About 90 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 30 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 50% complete! $#%#$
+writel About 60 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 10 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 58% complete! $#%#$
+writel About 50 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 10 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 66% complete! $#%#$
+writel About 40 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 10 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 75% complete! $#%#$
+writel About 30 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 5 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 79% complete! $#%#$
+writel About 25 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 5 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 83% complete! $#%#$
+writel About 20 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 5 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 88% complete! $#%#$
+writel About 15 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 5 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 90% complete! $#%#$
+writel About 10 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 1 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 91% complete! $#%#$
+writel About 9 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 1 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 92% complete! $#%#$
+writel About 8 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 1 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 93% complete! $#%#$
+writel About 7 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 1 $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 94% complete! $#%#$
+writel About 6 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 1 $#%#$
+flash $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 95% complete! $#%#$
+writel About 5 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 96% complete! $#%#$
+writel About 4 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 97% complete! $#%#$
+writel About 3 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 98% complete! $#%#$
+writel About 2 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 99% complete! $#%#$
+writel About 1 second remains. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 0.2 $#%#$
+flash $#%#$
+delay 0.2 $#%#$
+flash $#%#$
+delay 0.2 $#%#$
+flash $#%#$
+delay 0.2 $#%#$
+flash $#%#$
+delay 0.2 $#%#$
+flash $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update 100% complete! $#%#$
+writel About 0 seconds remain. $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+stopMusic $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Update complete! $#%#$
+writel Performing post-update actions. $#%#$
+writel This should only take a moment... $#%#$
+writel ---------------------------------------- $#%#$
+writel  $#%#$
+delay 5 $#%#$
+flash $#%#$
+writel  $#%#$
+writel ---------------------------------------- $#%#$
+writel Post-update actions complete! $#%#$
+writel Thank you for using Blizzard Auto-Updater. $#%#$
+writel ---------------------------------------- $#%#$

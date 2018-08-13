@@ -1,0 +1,30 @@
+<ConditionalActions>
+  
+  <Instantly>
+	<!--
+    <AddAsset FileName="TestCrack.exe" FileContents="#SSH_CRACK# #FTP_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+    <RunFunction FunctionName="setFaction:startingfac" FunctionValue="0" />
+    -->
+
+	<LaunchHackScript Filepath="HackerScripts/Blizzard_Ports/playerBlizzard.txt" DelayHost="testNode" Delay="0.0" SourceComp="_radiate_Battlestation" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<LaunchHackScript Filepath="HackerScripts/Blizzard_Ports/BlizzardDisable2.txt" DelayHost="testNode" Delay="0.0" SourceComp="_radiate_Battlestation" TargetComp="BlizzardMainframe" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<LaunchHackScript Filepath="HackerScripts/Blizzard_Ports/BlizzardDisable1.txt" DelayHost="testNode" Delay="0.0" SourceComp="BlizzardUpdateHost" TargetComp="_radiate_Battlestation" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<LaunchHackScript Filepath="HackerScripts/Blizzard_Ports/BlizzardDisable1.txt" DelayHost="testNode" Delay="0.0" SourceComp="BlizzardUpdateHost" TargetComp="MerlinRookGames" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<LaunchHackScript Filepath="HackerScripts/Blizzard_Ports/BlizzardDisable1.txt" DelayHost="testNode" Delay="0.0" SourceComp="BlizzardUpdateHost" TargetComp="AudaciousBatch" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<LaunchHackScript Filepath="HackerScripts/Blizzard_Ports/BlizzardDisable1.txt" DelayHost="testNode" Delay="0.0" SourceComp="BlizzardUpdateHost" TargetComp="SmokeDistribution" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<LaunchHackScript Filepath="HackerScripts/Blizzard_Ports/BlizzardDisable1.txt" DelayHost="testNode" Delay="0.0" SourceComp="BlizzardUpdateHost" TargetComp="YeOldeGames" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<LaunchHackScript Filepath="HackerScripts/Blizzard_Ports/BlizzardDisable1.txt" DelayHost="testNode" Delay="0.0" SourceComp="BlizzardUpdateHost" TargetComp="SmokeMessaging" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	<LaunchHackScript Filepath="HackerScripts/Blizzard_Ports/BlizzardDisable1.txt" DelayHost="testNode" Delay="0.0" SourceComp="BlizzardMainframe" TargetComp="BlizzardUpdateHost" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+	
+	<CrashComputer Delay="127" TargetComp="_radiate_Battlestation" CrashSource="BlizzardUpdateHost" DelayHost="testNode"/>
+	<CrashComputer Delay="127" TargetComp="BlizzardUpdateHost" CrashSource="BlizzardMainframe" DelayHost="testNode"/>
+	<CrashComputer Delay="127" TargetComp="MerlinRookGames" CrashSource="BlizzardUpdateHost" DelayHost="testNode"/>
+	<CrashComputer Delay="127" TargetComp="AudaciousBatch" CrashSource="BlizzardUpdateHost" DelayHost="testNode"/>
+	<CrashComputer Delay="127" TargetComp="SmokeDistribution" CrashSource="BlizzardUpdateHost" DelayHost="testNode"/>
+	<CrashComputer Delay="127" TargetComp="YeOldeGames" CrashSource="BlizzardUpdateHost" DelayHost="testNode"/>
+	<CrashComputer Delay="127" TargetComp="SmokeMessaging" CrashSource="BlizzardUpdateHost" DelayHost="testNode"/>
+	<CrashComputer Delay="127" TargetComp="BlizzardMainframe" CrashSource="_radiate_Battlestation" DelayHost="testNode"/>
+
+  </Instantly>
+
+</ConditionalActions>

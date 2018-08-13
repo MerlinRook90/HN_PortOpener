@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="testNode" name="Credits" ip="www.credits.org" type="empty">
+
+	<adminPass pass="swordfish" />
+	<portsForCrack val="256" />
+	<ports>21,22,25,80,104,211,554,1433,3659,9418</ports>
+	<trace time="-1" />
+
+	<customthemefile name="x-file.sys" path="sys" themePath="Themes/x-file.xml"/>
+	<file path="home" name="test.txt">#EXTENSION_FOLDER_PATH#</file>
+   
+	<FastActionHost />
+	<CreditsDaemon Title="Port Opener Proof-of-Concept Ending Credits" ButtonText="They're short I promise" />
+	<file name="CreditsData.txt" path="home"> --- Port Opener Proof-of-Concept ---
+
+Scenario and stuff:
+me
+
+Music:
+Dark Was the Night, Cold Was the Ground - Blind Willie Johnson
+Whatever else I used - Hacknet soundtrack
+
+Special Thanks:
+Hacknet - Matt Trobbiani
+
+
+And YOU, the player!
+Thanks for playing!
+
+
+
+
+
+by the way...
+
+
+the password is swordfish
+</file>
+  
+</Computer>

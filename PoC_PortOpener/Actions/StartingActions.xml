@@ -1,0 +1,15 @@
+<ConditionalActions>
+  
+  <Instantly>
+	<!--
+    <AddAsset FileName="TestCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+    -->
+    <RunFunction FunctionName="setFaction:solo" FunctionValue="0" />
+	<AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+	<AddAsset FileName="FTPBounce.exe" FileContents="#FTP_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+	<AddAsset FileName="SQLMemCorrupt.exe" FileContents="#SQL_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+	<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="playerComp" TargetFolderpath="bin" />
+	<DeleteFile TargetComp="testNode" FilePath="sys" FileName="x-server.sys" DelayHost="testNode" Delay="0"/>
+  </Instantly>
+
+</ConditionalActions>

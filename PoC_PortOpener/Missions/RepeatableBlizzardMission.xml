@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="RepeatableBlizzardMission">
+  <goals>
+    <!-- Goals here -->
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  -->
+  <missionStart>NONE</missionStart>
+  <missionEnd val="6">changeSong</missionEnd>
+
+  <nextMission>Missions/CooldownBlizzardMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>_radiate</sender>
+    <subject>Ready to roll</subject>
+    <body>
+Okay.
+
+
+Everything's ready to go. Just send me a reply when you want me to bring down the ports.
+	</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

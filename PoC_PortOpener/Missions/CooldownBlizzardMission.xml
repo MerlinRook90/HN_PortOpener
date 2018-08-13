@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="RepeatableBlizzardMission" activeCheck="true">
+  <goals>
+    <!-- Goals here -->
+	<goal type="delay" time="155.0"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  -->
+  <missionStart>loadConditionalActions:Actions/BlizzardDisable.xml</missionStart>
+  <missionEnd>playCustomSong:Music/DarkWasTheNight.ogg</missionEnd> 
+  
+  <nextMission>Missions/RepeatableBlizzardMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>_radiate</sender>
+    <subject>In progress</subject>
+    <body>Alright.
+
+The ports should be open for the next two minutes.
+
+What I'm using to open the ports is basically a slightly modified version of Blizzard's auto-updater, so hopefully nobody will notice anything amiss.
+
+I'll be sending you updates about the progress. One thing I should probably mention... Once the updates are finished all of the machines will reset and you won't be able to access them for a while. If I'm correct, that should be enough time for the ports to reset if they have a half-decent autoadmin, so get your business done quick.
+
+Good luck with whatever you're doing this time.
+	</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

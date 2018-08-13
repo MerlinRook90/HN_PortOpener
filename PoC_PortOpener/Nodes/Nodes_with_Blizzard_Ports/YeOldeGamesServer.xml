@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="YeOldeGames" name="Ye Olde Games Server" ip="92.212.173.63" type="0">
+	
+	<admin type="progress" resetPassword="false" isSuper="false"/>
+	<portsForCrack val="5" />
+	<ports>21,22,80,1433,3724</ports>
+	<trace time="60" />
+	
+	<file path="sys" name="Blizzard_Updater.dll">#BINARYSMALL#</file>
+	<file path="sys" name="Blizzard_Configuration.cfg">Updater IP: 69.121.211.192
+	Client ID: YeOldeGames
+	Client Pass: eZTSt6ZPnDbZHH3T</file>
+	
+</Computer>

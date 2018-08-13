@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="BlizzardMainframe" name="Blizzard Mainframe" ip="69.121.210.19" type="0">
+	
+	<admin type="fast" resetPassword="false" isSuper="false"/>
+	<portsForCrack val="5" />
+	<ports>21,22,25,80,1433,3724</ports>
+	<trace time="50" />
+	
+	<file path="sys" name="Blizzard_Update_Manager.dll">#BINARY#</file>
+	<file path="sys" name="Blizzard_Update_Clients.cfg">Client ID: SmokeDistribution
+Client Pass: KZysazM6sTmyfBiX
+
+Client ID: YeOldeGames
+Client Pass: DSmKq55HDwbZI12K
+
+Client ID: MerlinRookGames
+Client Pass: DSmKq55HDwbZI12K
+
+Client ID: AudaciousBatch
+Client Pass: paHbGEJn3rfpRaEd</file>
+
+	<dlink target="Blizzard_UpdateHost" />
+	
+</Computer>

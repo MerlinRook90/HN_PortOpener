@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+    <!-- Goals here -->
+	<goal type="getstring" target="MerlinRookGames" />
+	<goal type="getstring" target="DSmKq55HDwbZI12K" />
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/EndStartingMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>_radiate</sender>
+    <subject>I require assistance</subject>
+    <body>Howdy.
+
+I hear that you are a reasonably skilled hacker. I need your help with a project of mine.
+
+I've discovered a security vulnerability which would allow me to be able to compromise all ports running the Blizzard Updater service. If you help me out, I will use it whenever you need.
+
+My problem is that I require a valid passkey in order to access the target machine. Each computer with a port running the service should have a passkey associated with it. Here's a list of a few such computers that I've gathered. Find one that you can hack into, then get the passkey and send it to me along with the site id.
+
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <note title="Blizzard Updater Machines">104.73.101.7
+111.31.252.135
+231.225.74.167
+92.212.173.63
+dev note: add more IPs!</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="AudaciousBatch" name="Audacious Batch Server" ip="111.31.252.135" type="0">
+	
+	<admin type="progress" resetPassword="false" isSuper="false"/>
+	<portsForCrack val="5" />
+	<ports>21,22,80,1433,3724</ports>
+	<trace time="75" />
+	<proxy time="1" />
+	
+	<file path="sys" name="Blizzard_Updater.dll">#BINARYSMALL#</file>
+	<file path="sys" name="Blizzard_Configuration.cfg">Updater IP: 69.121.211.192
+	Client ID: AudaciousBatch
+	Client Pass: paHbGEJn3rfpRaEd</file>
+	
+</Computer>

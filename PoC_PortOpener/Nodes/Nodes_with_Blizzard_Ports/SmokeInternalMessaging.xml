@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="SmokeMessaging" name="Smoke Internal Message Server" ip="104.73.110.243" type="0">
+	
+	<admin type="fast" resetPassword="false" isSuper="false"/>
+	<portsForCrack val="5" />
+	<ports>21,22,25,80,1433,3724</ports>
+	<trace time="75" />
+	<firewall level="11" solution="SUMMER0SALE" additionalTime="0.1"/>
+	
+	<file path="sys" name="Blizzard_Updater.dll">#BINARYSMALL#</file>
+	<file path="sys" name="Blizzard_Configuration.cfg">Updater IP: 69.121.211.192
+	Client ID: SmokeDistribution
+	Client Pass: KZysazM6sTmyfBiX</file>
+	
+	<account username="R4D3473R" password="8Billi3n*LUMeNS" type="MAIL" />
+	<account username="xx_Xenon_xx" password="313M3N7#54" type="MAIL" />
+	
+	<mailServer name="Smoke Messenger" color="32,48,128" generateJunk="true">
+		<email recipient="R4D3473R" sender="xx_Xenon_xx" subject="Awesome new h4xx0r game!!">Hey, R4D!
+
+I know you're in love with hacking games, and this one is free for 48 hours only!
+
+It's this terminal-based hacking simulator called Hackent and it's the closest you'll ever be to being super 31337 like me.
+
+LOL, x
+		</email>
+		<email recipient="xx_Xenon_xx" sender="R4D3473R" subject="re: Awesome new h4xx0r game!!">
+Thanks!
+I've actually had my eye on that one for a while; I got it as soon as the giveaway started.
+On an unrelated note, I've forgotten the password that I set on my ePad before the summer.
+I can access the files on it fine because it's synced to my computer...
+Except I can't get at the stuff outside the normally accessible directories.
+Dumb anti-jailbreak unfriendly design...
+Anyway. You know me well. Can you think of what I may have used?
+		</email>
+		<email recipient="R4D3473R" sender="xx_Xenon_xx" subject="re: re: Awesome new h4xx0r game!!">
+You insult me. Implying the best I can do is guess your password...
+
+...
+
+Not really. But if you want me to break into your tablet to recover all your dirty documents, That's within my power.
+
+Send me your IP. A password to your computer would be nice but it isn't necessary.
+
+I'll reset the password on your ePad back to the factory default after I'm done snooping.
+
+LOL, x
+		</email>
+		<email recipient="xx_Xenon_xx" sender="R4D3473R" subject="re: re: re: Awesome new h4xx0r game!!">
+Oh.
+uh, thanks?
+I guess if you're able to, then go right ahead.
+My IP is 234.183.63.109
+I'm not sure how secure the Smoke messager is, so I don't really want to share my password over it...
+Meh.
+I'll probably end up changing all of my passwords anyway, so I guess it doesn't really matter what we say here.
+My computer password is 1|21D35C3N7 but I'll change it immediately after you're done. 
+		</email>
+	</mailServer>
+	
+	<dlink target="SmokeDistribution" />
+	
+</Computer>

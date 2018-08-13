@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="EndStartingMission" activeCheck="true">
+  <goals>
+    <!-- Goals here -->
+	<goal type="delay" time="10.0"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/RepeatableBlizzardMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>_radiate</sender>
+    <subject>Pleasure doing business</subject>
+    <body>Thanks!
+It should only take me a moment to set everything up. I'll contact you when it's ready.
+This is only my first real project, so I'm a little bit nervous...
+I mean, I'm sure it will work, but this kind of stuff isn't so easily testable in artificial conditions.
+There might be a part of my theories where I'm wrong, and I'll have to fix it.
+I'm just rambling now; you don't need to hear this. I'll be done in a jiffy.
+	</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

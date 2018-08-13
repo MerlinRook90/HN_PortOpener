@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="_radiate_Battlestation" name="_radiate Battlestation" ip="234.183.63.109" type="0">
+	
+	<admin type="fast" resetPassword="false" isSuper="true"/>
+	<portsForCrack val="4" />
+	<ports>21,22,25,80,3724,9418</ports>
+	<trace time="50" />
+	<firewall level="19" solution="0N0I0G0H0T0M0A0R0E0" additionalTime="0.2"/>
+	<proxy time="3" />
+	
+	<file path="home" name="Tablet_Pass.txt">Ok. Since the incident with Xenon, I'm going to start using passwords that are easier to remember.
+Until I have a spare moment, I'm changing my tablet password to be the same as my Smoke profile password.</file>
+	<file path="home" name="phonescanner.txt">Hey, R4D!
+	
+I know you've been just DYING to get your grubby mitts all over this piece of teck I told you about, so here it is!
+
+Using it is as easy as 3.14! just run it with admin priveledges and it reveals all your super-secret synced devices.
+
+If you can fix up some shroud to protect yourself from it, Don't be stingy! Share with me!
+
+I'll need to find a loophole in it for the next time you want me to recover your tablet. ;)
+
+Nice taste, btw.
+
+N I C E.
+
+LOL, x</file>
+	<file path="bin" name="Sync_Scanner.exe">#EOS_SCANNER_EXE#</file>
+	<file path="bin" name="Theme_Changer.exe">#THEMECHANGER_EXE#</file>
+	<file path="bin" name="SSH_Crack.exe">#SSH_CRACK#</file>
+	<file path="bin" name="FTP_Bounce.exe">#FTP_CRACK#</file>
+	<file path="bin" name="SMTP_Overflow.exe">#SMTP_CRACK#</file>
+	<file path="sys" name="Blizzard_Updater.dll">#BINARYSMALL#</file>
+	<file path="sys" name="Blizzard_Configuration.cfg">Updater IP: 69.121.211.192
+	Client ID: HOME_USER
+	Client Pass: N/A</file>
+	
+	<eosDevice name="_radiate's Jailbroken ePad69" id="_radiate_eos" icon="ePhone2" empty="false" passOverride="8Billi3n*LUMeNS">
+		<note>Credits server
+It seems to have some kind of credits on it, but I can't figure out what they're for.
+
+Address:
+www.credits.org</note>
+		<mail username="R4D3473R@smoke.com" pass="8Billi3n*LUMeNS" />
+		<file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(1).exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(2).exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(3).exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(4).exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(5).exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(6).exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(7).exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(8).exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(9).exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(10).exe">#CLOCK_PROGRAM#</file>
+		<file path="bin" name="Clock(11).exe">#CLOCK_PROGRAM#</file>
+		<file path="home/system23/important_OS_stuff/work/please_dont_open/im_serious/encrypted" name="i_learned_my_lesson_x.radzip">#BINARY#</file>
+	</eosDevice>
+	
+</Computer>

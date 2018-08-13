@@ -1,0 +1,21 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.0 $#%#$
+connect $#%#$
+openPort 3724 $#%#$
+delay 15.0 $#%#$
+openPort 3724 $#%#$
+delay 15.0 $#%#$
+openPort 3724 $#%#$
+delay 15.0 $#%#$
+openPort 3724 $#%#$
+delay 15.0 $#%#$
+openPort 3724 $#%#$
+delay 15.0 $#%#$
+openPort 3724 $#%#$
+delay 15.0 $#%#$
+openPort 3724 $#%#$
+delay 15.0 $#%#$
+openPort 3724 $#%#$
+delay 15.0 $#%#$
+openPort 3724 $#%#$
+delay 7.0 $#%#$
+reboot $#%#$
